@@ -6,7 +6,7 @@ public class leapYearTest {
 
     @Test
     void testOne() {
-        assertEquals("1", new LeapYear.convert(1));
+        assertEquals(true, new LeapYear.check(1000));
     }
 
 }
